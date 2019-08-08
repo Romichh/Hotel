@@ -1,0 +1,62 @@
+@media screen and (max-width: 1200px){
+.span1{
+ padding:20px;
+}
+body{
+ box-sizing:border-box;
+}
+}
+ 
+@media screen and (max-width:960px){
+ .span1{
+ padding:20px;
+}
+body{
+ box-sizing:border-box;
+}
+}
+ 
+@media screen and (max-width: 768px){
+.span1{
+ padding:20px;
+}
+body{
+ box-sizing:border-box;
+}
+}
+ 
+@media screen and (max-width:480px){
+.span1{
+ padding:20px;
+}
+body{
+ box-sizing:border-box;
+}
+}
+
+@media screen and (max-width: 1024px){
+.span1{
+ padding:20px;
+}
+body{
+ box-sizing:border-box;
+}
+}
+
+@media screen and (max-width: 800px){
+.span1{
+ padding:20px;
+}
+body{
+ box-sizing:border-box;
+}
+}
+
+@media screen and (max-width: 667px){
+.span1{
+ padding:20px;
+}
+body{
+ box-sizing:border-box;
+}
+}

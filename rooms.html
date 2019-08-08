@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Deluxe</title>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet"> 
+    <link rel="shortcut icon" href="Photos/logo.png" type="image/png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://use.fontawesome.com/aa00dd93b3.js"></script> 
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-wrapper header-container">
+            <div class="logo">
+              <div class="span1">Deluxe</div>  
+            </div>
+            <nav class="first-nav">
+                <a href="index.html">Home</a>
+                <a href="rooms.html">Our rooms</a>
+                <a href="reserve.html">Reserve</a>
+                
+            </nav>
+        </div>
+    </header>
+      <h2 class="w3-center">Slideshow</h2>
+      <div class="w3-content w3-display-container">
+          <img class="mySlides" src="Photos/1.jpg" style="width:100%">
+          <img class="mySlides" src="Photos/2.jpg" style="width:100%">
+          <img class="mySlides" src="Photos/3.jpg" style="width:100%">
+          <img class="mySlides" src="Photos/4.jpg" style="width:100%">
+          <img class="mySlides" src="Photos/5.jpg" style="width:100%">
+
+          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+        <h2 style="text-align: center;">Rooms</h2>
+    <section class="rooms">
+        <div class="main-wrapper">
+         <div class="col">
+           <div class="row2">
+               <div class="imgs">
+               <img src="Photos/econom.jpg" alt="" srcset="">
+               </div>
+               <div class="numbers econom-col">
+               <h3>Econom</h3>
+               <li>Two bed</li>
+               <li>Toilet and Bath</li>
+               <li>TV and freezer</li>
+               <li>Free Wi-Fi</li>
+               <li>Breakfast and dinner</li> 
+               <p><span id="price-span" style="color:blue; margin:0"> 40$ </span>one night</p>
+            </div>
+           </div>
+           
+             <div class="row2">
+              <div class="imgs">
+                   <img src="Photos/standart.jpg" alt="" srcset="">
+                   </div>
+                   <div class="numbers econom-col">
+                   <h3>Standart</h3>
+                   <li>Two bed</li>
+                   <li>Toilet and Bath</li>
+                   <li>TV and freezer</li>
+                   <li>Free Wi-Fi</li>
+                   <li>Breakfast and dinner</li> 
+                   <p><span id="price-span" style="color:blue; margin:0"> 80$ </span>one night</p>
+
+                </div>
+               </div>
+                <div class="row2">
+                 <div class="imgs">
+                 <img src="Photos/luxe.jpg" alt="" srcset="">
+                 </div>
+                 <div class="numbers econom-col">
+                  <h3>Luxe</h3>
+                   <li>Double bed </li>
+                    <li>Toilet and Bath</li>
+                    <li>TV and freezer</li>
+                    <li>Free Wi-Fi</li>
+                    <li>Free food and drinks all day</li> 
+                    <li>Coffee machine</li>
+                    <p><span id="price-span" style="color:blue; margin:0"> 200$ </span> one night</p>
+                  </div>
+                 </div>   
+         </div>
+         </div>
+       </section>
+       <a href="reserve.html">
+       <button class="reserve-button1" href="#">Reserve room</button>
+      </a>
+       <footer id="contacts">
+        <div class="main-footer main-wrapper">
+         <div class="contact-wrapper">
+           <section>
+             <div class="heading-line">
+               <h3 class="section-heading">Working Time</h3>
+             </div>
+             <div class="time-wrapper">
+                <i class="fa fa-clock-o" aria-hidden="true"></i>
+                <span>Mon-Sun:24/7</span>
+             </div>
+           </section>
+           <section>
+                <h3 class="section-heading">Adress</h3>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span> 38 Zamarstynivsʹka street,Lviv</span>
+           </section>
+           <section>
+                <h3 class="section-heading">Contacts</h3>
+                <div>
+                <i  class="fa fa-phone find" aria-hidden="true"></i>
+                <a href="tel:+380971382151">+380971382151</a>
+              </div>
+              <div>
+                <i class="fa fa-envelope find"></i>
+                <a href="mail:deluxehotel@gmail.com">deluxehotel@gmail.com</a>
+               </div>
+               <section>
+                 <h3 class="section-heading">We are also there</h3>
+                 <div class="col-heading"> 
+                   <a href="https://www.facebook.com/">
+                   <i class="fa fa-facebook-official" href="https://www.facebook.com/"></i>
+                   </a>
+                 </div>
+                 </h3>
+             </section>
+           </section>
+         </div>
+           <form action="" class="contact-form">
+           <h3>Response about our hotel</h3>
+             <input class="contact-input" type="text" name="userName" placeholder="Your Name" required>
+             <input class="contact-input" type="text" name="number" placeholder="Your number" required>
+             <textarea class="contact-input" name="comment" placeholder=" type your message here..." required></textarea>
+             <button role="button" class="button1">send a message</button>
+           </form>
+        </div>
+        <h5 style="text-align: center; color: lightgrey; margin-bottom: 10px;">© 2019 Hotel Deluxe Inc. All Rights Reserved.</h5>
+     </footer>   
+</body>
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+</html>
